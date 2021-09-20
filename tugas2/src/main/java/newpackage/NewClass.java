@@ -5,10 +5,17 @@
  */
 package newpackage;
 
+import java.util.Scanner;
+
 /**
  *
  * @author faikar
  */
 public class NewClass {
-    
+    public static void main(String[] args) {
+        String contoh;
+        Scanner input = new Scanner(System.in);
+        System.out.print("masuk huruf : ");
+        contoh = input.nextLine();
+    }
 }
