@@ -5,13 +5,14 @@
  */
 package Minggu2;
 
-import java.util.Scanner;
-
 /**
  *
  * @author faikar
  */
-public class Main {
-    public static void main(String[] args) {
-            }
+public class Soal3 {
+    public void soal3(){
+        double x = 92.98;
+        int nx = (int) Math.round(x);
+        System.out.println(nx);
+    }
 }
